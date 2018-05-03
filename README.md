@@ -3,7 +3,7 @@
 _Simple MySQL Wrapper_
 
 - *Author:* Roderic Linguri <linguri@digices.com>
-- *Version:* pre-release
+- *Version:* 0.0.3
 - *Copyright:* 2018 Digices LLC
 
 ### Installing with Composer ###
@@ -19,7 +19,7 @@ _Include the following in the root level of your composer.json:_
         }
     ],
     "require": {
-        "digices/paqure": "dev-master"
+        "digices/paqure": "0.0.3"
     },
     "autoload": {
         "psr-4": {
