@@ -49,6 +49,7 @@ abstract class Table
   public function drop()
   {
     $sql = "DROP TABLE `".$this->name."`;";
+    $this->database->execute($sql);
   } // ./drop
 
 } // ./Table
