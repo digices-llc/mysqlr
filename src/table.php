@@ -46,4 +46,9 @@ abstract class Table
     return false;
   }
 
+  public function drop()
+  {
+    $sql = "DROP TABLE `".$this->name."`;";
+  } // ./drop
+
 } // ./Table
