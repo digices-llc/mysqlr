@@ -34,6 +34,31 @@ _Executes any SQL Statement, but if it is a fetch query, returns an array of row
 
 ###### return: array of assocs ######
 
+### Table ###
+
+#### Public Properties ####
+
+
+
+#### Methods ####
+
+##### fetch row by id #####
+
+_Fetches a row matching an id_
+
+###### parameter: integer id ######
+
+###### return: assoc or false if no match ######
+
+##### fetch row by column #####
+
+_Fetches a row matching a column's value_
+
+###### parameter: any column ######
+
+###### parameter: any value ######
+
+###### return: array of assocs or false if no match ######
 
 ### Available Functions ###
 
